@@ -1,8 +1,5 @@
-dictionary = {}
-user_input = int(input("How many keys in your dictionary?"))
-for x in range(user_input):
-    dictionary[x] = x ** 2
-    
-print(user_input)
-
-print(dictionary)
+file = open("Example.txt", "r")
+print(file.read(10))
+print(file.readline())
+print(file.readline())
+file.close()
